@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:wght@600&display=swap");
+.fontsH1-mobile {
+  font-size: 2.5em;
+  font-family: "Dancing Script", cursive;
+}
+
+.fontsH2-mobile {
+  font-size: 2em;
+  font-family: "Dancing Script", cursive;
+}
+
+@media (max-width: 780px) {
+  .logo {
+    max-width: 5rem;
+  }
+}
+@media (max-width: 576px) {
+  .logo {
+    width: 3.5rem;
+    margin: 0 auto;
+  }
+}
+
+header {
+  background-color: #f9b1b1;
+}
+header div {
+  margin: 0 auto;
+}
+
+.h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 5.5em;
+  text-align: right;
+}
+@media (max-width: 780px) {
+  .h2 {
+    font-size: 3em;
+    text-align: left;
+  }
+}
+@media (max-width: 576px) {
+  .h2 {
+    font-size: 1em;
+    text-align: left;
+  }
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 7em;
+  margin: 0 auto;
+}
+@media (max-width: 780px) {
+  h1 {
+    font-size: 4em;
+    text-align: center;
+  }
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 5.5em;
+  text-align: right;
+}
+@media (max-width: 780px) {
+  h2 {
+    font-size: 3em;
+    text-align: right;
+  }
+}
+
+.imgNosotros {
+  max-width: 30rem;
+}
+@media (max-width: 768px) {
+  .imgNosotros {
+    max-width: 25rem;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 576px) {
+  .imgNosotros {
+    max-width: 20rem;
+    margin: 0 auto;
+  }
+}
+
+.imgMargin {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerRedes {
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 576px) {
+  .footerRedes {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.footerNav {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-size: "Nunito", sans-serif;
+}
+
+footer {
+  background-color: #1b1b1b;
+}
+footer h4 {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  font-family: "Nunito", sans-serif;
+}
+footer p {
+  font-family: "Nunito", sans-serif;
+  color: rgb(255, 255, 255);
+  padding-top: 3rem;
+}
+
+.figuras {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 1rem;
+  margin: auto;
+  position: relative;
+  width: auto;
+  margin-left: 1rem;
+}
+
+@media (max-width: 576px) {
+  .productos {
+    max-width: 11rem;
+    margin-left: 0, 5rem;
+    margin-bottom: 0, 5rem;
+    border-radius: 1rem;
+  }
+  .productos img {
+    border-radius: 1rem;
+  }
+}
+@media (max-width: 575px) {
+  .productos {
+    max-width: 8rem;
+  }
+}
+.btn-primary {
+  background-color: rgb(228, 114, 114);
+  border-color: rgb(228, 114, 114);
+}
+
+.productos {
+  margin-left: 0.1rem;
+  margin-bottom: 1rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  max-width: 17rem;
+  justify-content: center;
+  justify-items: stretch;
+  border-radius: 2rem;
+}
+.productos img {
+  border-radius: 2rem;
+}
+
+.filtro {
+  width: 4rem;
+  margin: 0 auto;
+}
+
+.paginacion {
+  display: flex;
+  margin: 0 auto;
+  color: rgb(252, 227, 227);
+  position: relative;
+  align-items: center;
+}
+
+h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 4em;
+  background-color: rgb(252, 227, 227);
+  margin-right: 0;
+  margin-left: 0;
+}
+
+h4 {
+  font-family: "Nunito", sans-serif;
+}
+
+.productBtn {
+  margin-bottom: 0.2rem;
+  position: relative;
+}
+
+main nav {
+  margin-bottom: 1rem;
+}
+main nav ul li {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5em;
+  padding-left: 1.5rem;
+}
+
+div nav {
+  margin: 0 auto;
+}
+
+.colecciones {
+  max-width: 28rem;
+  margin-left: 1%;
+  font-family: "Nunito", sans-serif;
+  font-size: 2em;
+}
+
+@media (max-width: 576px) {
+  .colecciones {
+    width: 8rem;
+    font-size: 0, 5em;
+    margin-left: 0, 5%;
+  }
+}
+.titulo {
+  font-family: "Dancing Script", cursive;
+  background-color: rgb(252, 227, 227);
+  margin-bottom: 1.5rem;
+  font-size: 3em;
+  padding-left: 1rem;
+}
+
+.box {
+  border-style: solid;
+  border-color: rgb(252, 227, 227);
+}
+.box p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.redesbox {
+  border-style: solid;
+  border-color: rgb(252, 227, 227);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.redesbox p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.formbox {
+  border-style: solid;
+  border-color: rgb(252, 227, 227);
+}
+.formbox p {
+  font-size: 1.5em;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .formbox {
+    margin-top: 1rem;
+  }
+}
+
+.icons {
+  margin: 0 auto;
+}
+
+.map {
+  margin-left: 15%;
+  width: 30rem;
+  height: 20rem;
+}
+@media (max-width: 576px) {
+  .map {
+    padding-left: 0;
+    width: 15rem;
+  }
+}
+
+main div section div {
+  align-items: center;
+}
+main div section div a img {
+  margin-left: 15%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+main section form button {
+  margin-left: 40%;
+  margin-top: 2%;
+  width: 10rem;
+}
+
+.posicionTitles {
+  display: flex;
+  position: relative;
+}
+
+main {
+  background-color: #ffffff;
+}
+
+.Error {
+  margin-left: 15%;
+  margin-top: 6%;
+}
+@media (max-width: 1000px) {
+  .Error {
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+}
+
+.logoError {
+  width: 15rem;
+}
+@media (max-width: 1000px) {
+  .logoError {
+    width: 15rem;
+  }
+}
+@media (max-width: 768px) {
+  .logoError {
+    width: 10rem;
+  }
+}
+
+.error404 {
+  font-size: 6.5em;
+  font-family: serif;
+  padding-top: 2rem;
+}
+@media (max-width: 1000px) {
+  .error404 {
+    font-size: 4em;
+  }
+}
+
+.texto404 {
+  font-size: 1.5em;
+  font-family: serif;
+  margin: 0 auto;
+}
+@media (max-width: 1000px) {
+  .texto404 {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 576px) {
+  .texto404 {
+    margin: 0 auto;
+    font-size: 1em;
+    margin-left: 2%;
+  }
+}
+
+.imgError {
+  width: 15rem;
+  margin: 0 auto;
+}
+
+.img1 {
+  border-radius: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

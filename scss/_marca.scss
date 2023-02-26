@@ -1,0 +1,101 @@
+
+//fonts
+$mainFuente:'Dancing Script', cursive;
+$secondFuente: 'Nunito', sans-serif;
+
+//tamaños
+$fontsH1-desk: 7em;
+$fontsH2-desk: 5.5em;
+$fontsH3-desk: 4em;
+$fontsH4-desk: 2em;
+.fontsH1-mobile { font-size: 2.5em; 
+font-family: $mainFuente;};
+.fontsH2-mobile {font-size: 2em; 
+    font-family: $mainFuente;}
+
+//colors
+$primary: #f9b1b1;
+$secondary: rgb(252, 227, 227);
+$backgroundColor: #fdfdfd;
+$third:#c87c7c;
+$footerBgcolor: #1b1b1b;
+
+
+
+//logo
+.logo{
+    @media(max-width: 780px){
+        max-width: 5rem;
+    }
+    @media(max-width: 576px){
+        width: 3.5rem;
+        margin: 0 auto;
+      
+    }
+}
+
+
+header{
+    background-color: $primary;
+    div{
+        margin: 0 auto;
+    }
+    
+}
+
+.h2{
+    font-family: $mainFuente;
+    font-size: $fontsH2-desk;
+    text-align: right;
+    @media(max-width:780px){
+        font-size: 3em;
+        text-align: left;
+   
+    }
+    @media(max-width:576px){
+        font-size: 1em;
+        text-align: left;
+
+    }
+}
+    h1{
+        font-family: $mainFuente;
+        font-size: $fontsH1-desk;
+        margin: 0 auto;
+        @media(max-width:780px){
+            font-size: 4em;
+            text-align: center;
+        }
+       
+    }
+
+    h2{
+        font-family: $mainFuente;
+        font-size: $fontsH2-desk;
+        text-align: right;
+        @media(max-width:780px){
+            font-size:3em;
+            text-align: right;
+        }
+      
+    }
+//nosotros
+.imgNosotros{
+   max-width: 30rem;
+   @media(max-width:768px){
+    max-width: 25rem;
+    margin: 0 auto;
+   }
+   @media(max-width: 576px){
+    max-width: 20rem;
+    margin: 0 auto;
+   }
+
+}
+.imgMargin{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+
+}

@@ -1,0 +1,152 @@
+//fonts
+$mainFuente:'Dancing Script', cursive;
+$secondFuente: 'Nunito', sans-serif;
+
+//tamaños
+$fontsH1-desk: 8em;
+$fontsH2-desk: 5em;
+$fontsH3-desk: 4em;
+$fontsH4-desk: 2em;
+$fontsH1-mobile:0.1em;
+
+//colors
+$primary: #f9b1b1;
+$secondary: rgb(252, 227, 227);
+$backgroundColor: #ffffff;
+$third:#c87c7c;
+$footerBgcolor: #1b1b1b;
+$btnColor:rgb(228, 114, 114);
+
+$footerTextColor: rgb(255, 255, 255);
+
+
+
+
+//mixins
+.figuras {display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 1rem;
+    margin: auto;
+    position: relative;
+    width: auto;
+    margin-left: 1rem;
+    }
+
+@mixin Productos {
+    margin-left: 0.1rem;
+    margin-bottom: 1rem;
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    width: auto;
+    max-width: 17rem;
+    justify-content: center;
+    justify-items: stretch;
+    border-radius: 2rem;
+    img{
+        border-radius: 2rem;
+    }
+}
+
+    @media(max-width: 576px){
+        .productos {
+        max-width: 11rem;
+        margin-left: 0,05rem;
+        margin-bottom: 0,05rem;
+        border-radius: 1rem;
+        img{
+            border-radius: 1rem;
+        }}
+        }
+
+    @media(max-width: 575px){
+        .productos {
+        max-width: 8rem;
+        }
+    }
+
+.btn-primary{
+    background-color: $btnColor;
+    border-color: $btnColor;
+}
+
+.productos{
+    @include Productos;
+}
+
+.filtro{
+    width: 4rem;
+    margin: 0 auto;
+
+
+}
+
+.paginacion{
+    display: flex;
+    margin: 0 auto;
+    color: $secondary;
+    position: relative;
+    align-items: center;
+
+}
+
+h3{
+    font-family: $mainFuente;
+    font-size: $fontsH3-desk;
+    background-color: $secondary;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+h4{
+    font-family: $secondFuente;
+
+}
+
+.productBtn{
+    margin-bottom : 0.2rem;
+    position: relative;
+}
+
+main{
+    nav{
+        margin-bottom: 1rem;
+        ul{
+            
+            li{
+                font-family: $secondFuente;
+                font-size: 1.5em;
+                padding-left: 1.5rem;
+                
+            }
+        }
+    }
+}
+
+div{
+    nav{
+        margin: 0 auto;
+    }
+}
+
+//colecciones
+
+.colecciones{
+    max-width: 28rem;
+    margin-left: 1%;
+    font-family: $secondFuente;
+    font-size: $fontsH4-desk;
+}
+    @media(max-width:576px){
+        .colecciones{
+            width: 8rem;
+            font-size: 0,5em;
+            margin-left: 0,5%;
+        }
+    }
+
+
+
+
