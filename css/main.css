@@ -175,9 +175,22 @@ footer p {
     max-width: 8rem;
   }
 }
+.productBtn {
+  margin-bottom: 0.2rem;
+  position: relative;
+}
+
 .btn-primary {
   background-color: rgb(228, 114, 114);
   border-color: rgb(228, 114, 114);
+}
+
+.btnCarrusel {
+  max-width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 206, 206, 0.8274509804);
+  margin-top: 70%;
 }
 
 .productos {
@@ -219,11 +232,6 @@ h3 {
 
 h4 {
   font-family: "Nunito", sans-serif;
-}
-
-.productBtn {
-  margin-bottom: 0.2rem;
-  position: relative;
 }
 
 main nav {

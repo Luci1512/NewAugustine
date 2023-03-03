@@ -14,6 +14,7 @@ $primary: #f9b1b1;
 $secondary: rgb(252, 227, 227);
 $backgroundColor: #ffffff;
 $third:#c87c7c;
+$btnCarrusel: #ffceced3;
 $footerBgcolor: #1b1b1b;
 $btnColor:rgb(228, 114, 114);
 
@@ -67,9 +68,25 @@ $footerTextColor: rgb(255, 255, 255);
         }
     }
 
+//botones
+.productBtn{
+    margin-bottom : 0.2rem;
+    position: relative;
+}
+
 .btn-primary{
     background-color: $btnColor;
     border-color: $btnColor;
+}
+
+
+.btnCarrusel{
+    max-width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: $btnCarrusel; 
+    margin-top: 70%;
+
 }
 
 .productos{
@@ -105,10 +122,7 @@ h4{
 
 }
 
-.productBtn{
-    margin-bottom : 0.2rem;
-    position: relative;
-}
+
 
 main{
     nav{
