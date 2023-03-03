@@ -12,6 +12,7 @@
 @media (max-width: 780px) {
   .logo {
     max-width: 5rem;
+    margin: 0 auto;
   }
 }
 @media (max-width: 576px) {
@@ -21,11 +22,19 @@
   }
 }
 
-header {
-  background-color: #f9b1b1;
+.navButton {
+  background: rgb(252, 227, 227);
+  background: radial-gradient(circle, rgb(252, 227, 227) 0%, rgb(250, 208, 208) 100%);
 }
-header div {
-  margin: 0 auto;
+
+header {
+  background: rgb(252, 227, 227);
+  background: radial-gradient(circle, rgb(252, 227, 227) 0%, rgb(249, 151, 151) 100%);
+}
+@media (max-width: 576px) {
+  header div {
+    margin: 0 auto;
+  }
 }
 
 .h2 {
