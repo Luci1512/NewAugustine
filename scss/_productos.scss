@@ -25,7 +25,7 @@ $media-1170: 14rem;
 $media-980: 11.2rem;
 $media-800: 10rem;
 $media-725: 14rem;
-$media-520: 16.5rem;
+$media-520: 17.2rem;
 
 //mixins
 .figuras {display: flex;
@@ -70,19 +70,19 @@ $media-520: 16.5rem;
     img{
         border-radius: 2rem;
         @media(max-width: 1170px){
-            width: $media-1170;
+            max-width: $media-1170;
         }
         @media(max-width: 980px){
-            width: $media-980;
+            max-width: $media-980;
         }
         @media(max-width: 800px){
-            width: $media-800;
+            max-width: $media-800;    
         }
         @media(max-width: 725px){
-        width: $media-725;
+            max-width: $media-725;
         }
         @media(max-width:520px){
-            width: $media-520;
+            max-width: $media-520;
         }
     }
 

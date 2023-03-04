@@ -211,7 +211,7 @@ footer p {
 }
 @media (max-width: 520px) {
   .productos {
-    width: 16.5rem;
+    width: 17.2rem;
   }
 }
 .productos img {
@@ -219,27 +219,27 @@ footer p {
 }
 @media (max-width: 1170px) {
   .productos img {
-    width: 14rem;
+    max-width: 14rem;
   }
 }
 @media (max-width: 980px) {
   .productos img {
-    width: 11.2rem;
+    max-width: 11.2rem;
   }
 }
 @media (max-width: 800px) {
   .productos img {
-    width: 10rem;
+    max-width: 10rem;
   }
 }
 @media (max-width: 725px) {
   .productos img {
-    width: 14rem;
+    max-width: 14rem;
   }
 }
 @media (max-width: 520px) {
   .productos img {
-    width: 16.5rem;
+    max-width: 17.2rem;
   }
 }
 @media (max-width: 1170px) {
@@ -265,7 +265,7 @@ footer p {
 }
 @media (max-width: 520px) {
   .productos h4 {
-    max-width: 16.5rem;
+    max-width: 17.2rem;
   }
 }
 
