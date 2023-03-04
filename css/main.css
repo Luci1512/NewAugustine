@@ -159,22 +159,6 @@ footer p {
   margin-left: 1rem;
 }
 
-@media (max-width: 576px) {
-  .productos {
-    max-width: 11rem;
-    margin-left: 0, 5rem;
-    margin-bottom: 0, 5rem;
-    border-radius: 1rem;
-  }
-  .productos img {
-    border-radius: 1rem;
-  }
-}
-@media (max-width: 575px) {
-  .productos {
-    max-width: 8rem;
-  }
-}
 .productBtn {
   margin-bottom: 0.2rem;
   position: relative;
@@ -205,8 +189,69 @@ footer p {
   justify-items: stretch;
   border-radius: 2rem;
 }
+@media (max-width: 1170px) {
+  .productos {
+    width: 14rem;
+  }
+}
+@media (max-width: 980px) {
+  .productos {
+    width: 11.2rem;
+  }
+}
+@media (max-width: 800px) {
+  .productos {
+    width: 10rem;
+  }
+}
+@media (max-width: 725px) {
+  .productos {
+    width: 14rem;
+  }
+}
 .productos img {
   border-radius: 2rem;
+}
+@media (max-width: 1170px) {
+  .productos img {
+    width: 14rem;
+  }
+}
+@media (max-width: 980px) {
+  .productos img {
+    width: 11.2rem;
+  }
+}
+@media (max-width: 800px) {
+  .productos img {
+    width: 10rem;
+  }
+}
+@media (max-width: 725px) {
+  .productos img {
+    width: 14rem;
+  }
+}
+@media (max-width: 1170px) {
+  .productos h4 {
+    font-size: 1.1em;
+    max-width: 14rem;
+  }
+}
+@media (max-width: 980px) {
+  .productos h4 {
+    max-width: 11.2rem;
+  }
+}
+@media (max-width: 800px) {
+  .productos h4 {
+    max-width: 10rem;
+  }
+}
+@media (max-width: 725px) {
+  .productos h4 {
+    max-width: 14rem;
+  }
 }
 
 .filtro {
