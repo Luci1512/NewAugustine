@@ -209,6 +209,11 @@ footer p {
     width: 14rem;
   }
 }
+@media (max-width: 520px) {
+  .productos {
+    width: 16.5rem;
+  }
+}
 .productos img {
   border-radius: 2rem;
 }
@@ -232,6 +237,11 @@ footer p {
     width: 14rem;
   }
 }
+@media (max-width: 520px) {
+  .productos img {
+    width: 16.5rem;
+  }
+}
 @media (max-width: 1170px) {
   .productos h4 {
     font-size: 1.1em;
@@ -251,6 +261,11 @@ footer p {
 @media (max-width: 725px) {
   .productos h4 {
     max-width: 14rem;
+  }
+}
+@media (max-width: 520px) {
+  .productos h4 {
+    max-width: 16.5rem;
   }
 }
 
