@@ -191,27 +191,27 @@ footer p {
 }
 @media (max-width: 1170px) {
   .productos {
-    width: 14rem;
+    max-width: 14rem;
   }
 }
 @media (max-width: 980px) {
   .productos {
-    width: 11.2rem;
+    max-width: 11.2rem;
   }
 }
 @media (max-width: 800px) {
   .productos {
-    width: 10rem;
+    max-width: 10rem;
   }
 }
 @media (max-width: 725px) {
   .productos {
-    width: 14rem;
+    max-width: 14rem;
   }
 }
 @media (max-width: 520px) {
   .productos {
-    width: 17.2rem;
+    max-width: 17.2rem;
   }
 }
 .productos img {

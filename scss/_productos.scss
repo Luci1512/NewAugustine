@@ -53,19 +53,19 @@ $media-520: 17.2rem;
 
     //@media products
     @media(max-width:1170px){
-        width: $media-1170;
+        max-width: $media-1170;
     }
     @media(max-width: 980px){
-        width: $media-980;
+        max-width: $media-980;
     }
     @media(max-width: 800px){
-        width: $media-800;
+        max-width: $media-800;
     }
     @media(max-width: 725px){
-        width: $media-725;
+        max-width: $media-725;
     }
     @media(max-width:520px){
-        width: $media-520;
+        max-width: $media-520;
     }
     img{
         border-radius: 2rem;
@@ -98,7 +98,7 @@ $media-520: 17.2rem;
             max-width: $media-800;
         }
         @media(max-width: 725px){
-        max-width: $media-725;
+            max-width: $media-725;
         }
         @media(max-width:520px){
             max-width: $media-520;
