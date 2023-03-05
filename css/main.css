@@ -118,18 +118,19 @@ h2 {
 }
 
 .footerRedes {
+  margin: 0 auto;
   margin-top: 3.5rem;
   display: flex;
   justify-content: space-around;
+  margin-right: 2rem;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .footerRedes {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
 }
-
-.footerNav {
+.footerNavUl {
   text-decoration: none;
   list-style: none;
   color: rgb(255, 255, 255);

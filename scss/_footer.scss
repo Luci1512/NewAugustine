@@ -22,17 +22,22 @@ $footerTextColor: rgb(255, 255, 255);
 $heightA: auto;
 
 .footerRedes{
+    margin: 0 auto;
     margin-top: 3.5rem;
     display: flex;
     justify-content: space-around;
-    @media(max-width: 576px){
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
+    margin-right: 2rem;
 
+    @media(max-width:768px){
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    @media(max-width: 576px){
+    }
 }
 
-.footerNav{
+
+.footerNavUl{
     text-decoration: none;
     list-style: none;
     color: rgb(255, 255, 255);
