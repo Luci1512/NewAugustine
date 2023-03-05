@@ -9,6 +9,9 @@
   font-family: "Dancing Script", cursive;
 }
 
+.logo {
+  max-width: 7.5rem;
+}
 @media (max-width: 768px) {
   .logo {
     max-width: 5rem;
@@ -188,6 +191,7 @@ footer p {
   justify-content: center;
   justify-items: stretch;
   border-radius: 2rem;
+  height: auto;
 }
 @media (max-width: 1170px) {
   .productos {
@@ -241,6 +245,11 @@ footer p {
   .productos img {
     max-width: 17.2rem;
   }
+}
+.productos h4 {
+  height: 3.5rem;
+  margin-top: 2%;
+  margin-bottom: 1%;
 }
 @media (max-width: 1170px) {
   .productos h4 {
